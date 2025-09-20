@@ -18,7 +18,16 @@ function App() {
       setInput("");
     } else if(value==="DEL"){
       setInput((prev) => prev.slice(0, -1));
+    }else if (value === "!") {
+  setInput((prev) => {
+    // Prevent multiple factorials or invalid usage
+    if (/[\+\-\*\/.]$/.test(prev) || prev.endsWith("!")) {
+      return prev;
     }
+    return prev + "!";
+  });
+}
+
     else {
       setInput((prev) => {
         if(prev==="Error"){
@@ -44,7 +53,7 @@ function App() {
     const key=event.key;
 
     const validKeys=[
-      "Escape","Backspace","%","/",
+      "Escape","Backspace","!","/",
     "7", "8", "9","*",
     "4", "5", "6","-",
     "1", "2", "3","+",
@@ -78,7 +87,7 @@ function App() {
 )
 
   const buttons = [
-    "AC","DEL","%","/",
+    "AC","DEL","!","/",
     "7", "8", "9","*",
     "4", "5", "6","-",
     "1", "2", "3","+",

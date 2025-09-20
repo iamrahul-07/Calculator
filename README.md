@@ -1,16 +1,34 @@
-<<<<<<< HEAD
-# Calculator
-=======
-# React + Vite
+# 🧮 React Calculator with Dark Mode & Factorial Support
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, keyboard-enabled calculator built with **React**, styled using **Tailwind CSS**, and powered by **mathjs** for safe expression evaluation. It features dark/light mode toggling, keyboard input support, and includes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎨 **Light/Dark mode toggle**
+- ⌨️ **Full keyboard input support**
+- 🧠 **Smart expression evaluation** using `mathjs`
+- 📱 **Responsive layout** (desktop and mobile friendly)
+- ⚡ Built with **React + Tailwind CSS**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> bb02998 (Initial commit)
+---
+
+## 🚀 Preview
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+![Light Mode](image.png)
+![Dark Mode](image-1.png)
+
+
+---
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/iamrahul-07/Calculator.git
+cd react-calculator
+npm install

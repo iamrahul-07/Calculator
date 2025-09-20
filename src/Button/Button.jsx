@@ -1,7 +1,7 @@
 // src/components/Button.jsx
 function Button({ label, onClick }) {
   const isOperator = ["+", "-", "*", "/"].includes(label);
-  const specialKey=["AC", "DEL", "%"].includes(label);
+  const specialKey=["AC", "DEL", "!"].includes(label);
   const isEqual=label==='=';
 
 
