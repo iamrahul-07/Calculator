@@ -18,8 +18,10 @@ A responsive, keyboard-enabled calculator built with **React**, styled using **T
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-[Light Mode](image.png)
-[Dark Mode](image-1.png)
+<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/bcf8b9f8-8da9-4f11-9688-67dc225f2679" />
+
+<img width="1917" height="965" alt="image" src="https://github.com/user-attachments/assets/7779d342-a036-4832-a5af-1578f60b0868" />
+
 
 
 ---
