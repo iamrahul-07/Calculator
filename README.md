@@ -16,9 +16,11 @@ A responsive, keyboard-enabled calculator built with **React**, styled using **T
 
 ## 🚀 Preview
 
-| Light Mode | Dark Mode |
-|------------|-----------|
+| Light Mode |
+|------------|
 ![Light Mode](image.png)
+| Dark Mode |
+|-----------|
 ![Dark Mode](image-1.png)
 
 
